@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# ReactJS site with Routes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of my studies on ReactJS.
+
+⚒️ Technologies used:
+
+- CSS
+- ReactJS
+- React Route Dom
+
+🤓 Learning:
+
+- I used react concepts like useState, routes 
+- Improving the knowledge of responsiveness with @media
+
+📄 Requirements:
+
+- Any operating system
+- VS Code
+
+📝 License:
+
+- Free for use and change
 
 ## Available Scripts
 

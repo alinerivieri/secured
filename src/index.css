@@ -1,13 +1,80 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: #0fb8e0;
+  --primary-dark: #0d2154;
+  --button-h: #47dcff;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  padding: .7rem 1.5rem;
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: #eee;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-h);
+  border: 1px solid var(--button-h);
+}
+
+
+@media screen and (max-width: 940px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
 }
